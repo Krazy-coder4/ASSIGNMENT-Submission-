@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>Addition of two numbers</title>
+               
+        <script>
+            
+            function calc()
+            {
+                var n1 = parseFloat(document.getElementById('n1').value);
+                var n2 = parseFloat(document.getElementById('n2').value);
+                                
+                
+                    document.getElementById('result').value = n1+n2;
+                
+            }
+            
+        </script>
+        
+    </head>
+    <body>
+	<h1>Assignment 4, Question 2 -- Dev Kumar Gupta</h1>
+
+        <label for="n1">Enter First Number:
+        <input type="text" id="n1"/><br/><br/>
+        </label>
+
+        <label for="n2">Enter Second Number:
+        <input type="text" id="n2"/><br/><br/>
+        </label>
+                
+        <button onclick="calc();">Add</button>
+        
+        <label for="result">
+        <input type="text" id="result"/>
+        </label>
+    
+    </body>
+</html>

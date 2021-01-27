@@ -1,0 +1,20 @@
+
+// QUESTION 1
+
+//  There are Three(3) ways of DOM Manipulation as we have learnt, they are as follows:
+
+//  1) ID: Method:  getElementById()
+    
+//     Note: We can grab an element by ID with the getElementById() method of the document object.
+//           In order to be accessed by ID, the HTML element must have an id attribute.
+
+//  2) Class: Method:  getElementByClassName()
+    
+//  Note: We can grab an element by class name with the getElementByClassName() method of the document object.
+//        In order to be accessed by class name, the HTML element must have an class attribute.
+       
+//  3) TagName: Method:  getElementByTagName()
+    
+//  Note: We can grab an element by TagName with the getElementByTagName() method of the document object.
+//        In order to be accessed by TagName, the HTML element must have a tag(Example h1 tag). 
+       
